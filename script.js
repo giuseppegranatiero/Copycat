@@ -30,7 +30,7 @@ function create_new_order_questions(){
     var allSpans = document.getElementsByTagName("span");
     var index = 0;
     for(var i = 0; i < allSpans.length; i ++) {
-        if(allSpans[i].className === 'G4EHhc') {
+        if(allSpans[i].className === 'M7eMe') {
             // add to map
             var question = allSpans[i].innerHTML;
             myMap.set(question, index);
@@ -60,7 +60,7 @@ function create_new_order_answers(){
         var allSpans = q.getElementsByTagName("span");
         var index = 0;
         for(var i = 0; i < allSpans.length; i ++) {
-            if(allSpans[i].className === "aDTYNe snByac OvPDhc") {
+            if(allSpans[i].className === "aDTYNe snByac OvPDhc OIC90c") {
                 // add to map
                 var question = allSpans[i].innerHTML;
                 myMap.set(question, index);
@@ -91,7 +91,6 @@ function init(){
 }
 
 init();
-
 
     
 
